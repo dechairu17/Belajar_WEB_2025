@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const person = {};
+        person.name = "Dimas";
+        person.age = 22;
+        person.isMale = true;
+
+        document.writeln(person.name);
+        document.writeln(person.age);
+        document.writeln(person.isMale);
+
+        delete person.isMale ;
+
+        document.writeln(person.isMale);
+
+        const orang = {};
+        orang["nama"] = "dimas";
+        orang["umur"] = 22;
+        orang["isMale"] = true;
+
+        console.table(orang);
+        document.writeln(orang.nama);
+        document.writeln(orang.umur);
+        document.writeln(orang.isMale);
+    </script>
+</body>
+</html>
